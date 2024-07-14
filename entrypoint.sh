@@ -1,2 +1,2 @@
 #!/bin/sh
-python wsgi.py /keystone.db
+python wsgi.py keystone.db
