@@ -1,2 +1,3 @@
 #!/bin/sh
-python wsgi.py keystone.db
+cp -R /keystone.db /data/keystone.db
+python wsgi.py /data/keystone.db
